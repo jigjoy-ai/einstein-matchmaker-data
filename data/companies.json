@@ -1,0 +1,620 @@
+{
+  "name": "EINSTEIN Matchmaker synthetic dataset",
+  "version": "1.0",
+  "note": "Synthetic. Every person, company, publication, project and patent is invented; any resemblance to real ones is a coincidence. Institutions are real faculties of the University of Novi Sad, used as a setting only.",
+  "companies": [
+    {
+      "id": "C01",
+      "name": "AgroLens d.o.o.",
+      "sector": "Agri-tech software",
+      "employees": 24,
+      "founded": 2019,
+      "location": "NTP Novi Sad",
+      "about": "Farm management software for mid-size grain farms in Vojvodina and Hungary: field records, spraying plans, satellite crop maps.",
+      "products": [
+        "AgroLens Field (web and mobile)",
+        "crop health maps"
+      ],
+      "tech": [
+        "Python",
+        "PostGIS",
+        "Sentinel Hub",
+        "React Native"
+      ],
+      "challenges": [
+        {
+          "id": "C01-CH1",
+          "text": "Farmers want a yield estimate per parcel by mid-June, but our maps only show crop vigour."
+        },
+        {
+          "id": "C01-CH2",
+          "text": "Ground truth for soil moisture costs too much: probes are expensive and we can't place them on every parcel."
+        }
+      ],
+      "plans": "Launch a yield-forecast product for 2027 and expand to Romania.",
+      "rd_capacity": "Two data scientists.",
+      "past_collaborations": "None with the university yet.",
+      "language": "en"
+    },
+    {
+      "id": "C02",
+      "name": "Polje Senzor d.o.o.",
+      "sector": "IoT hardware",
+      "employees": 9,
+      "founded": 2021,
+      "location": "NTP Novi Sad",
+      "about": "Pravimo bežične senzorske stanice za voćnjake: temperatura, vlažnost lista, padavine. Stanice rade na bateriju i šalju podatke preko LoRaWAN mreže.",
+      "products": [
+        "PS-Orchard stanica",
+        "aplikacija za upozorenja na mraz"
+      ],
+      "tech": [
+        "C",
+        "STM32",
+        "LoRaWAN",
+        "Node.js"
+      ],
+      "challenges": [
+        {
+          "id": "C02-CH1",
+          "text": "Baterije u stanicama zimi traju upola kraće nego leti, pa voćari moraju da ih menjaju usred sezone."
+        },
+        {
+          "id": "C02-CH2",
+          "text": "Voćari ručno broje leptire na feromonskim klopkama; hteli bismo da kamera na klopci to radi sama."
+        }
+      ],
+      "plans": "Nova generacija stanica sa kamerom 2027.",
+      "rd_capacity": "Dva inženjera hardvera.",
+      "past_collaborations": "Diplomski radovi studenata FTN-a.",
+      "language": "sr"
+    },
+    {
+      "id": "C03",
+      "name": "FreshPak Solutions",
+      "sector": "Packaging",
+      "employees": 60,
+      "founded": 2012,
+      "location": "NTP Novi Sad",
+      "about": "Packaging for fresh fruit and vegetables, mostly for exporters of berries to the EU.",
+      "products": [
+        "punnets",
+        "lidding films",
+        "export cartons"
+      ],
+      "tech": [
+        "film extrusion",
+        "thermoforming"
+      ],
+      "challenges": [
+        {
+          "id": "C03-CH1",
+          "text": "Raspberries for Germany arrive with mould on day 9; buyers want 14 days."
+        },
+        {
+          "id": "C03-CH2",
+          "text": "Big retailers will stop taking conventional plastic lidding film by 2028; we need a compostable one that still seals."
+        }
+      ],
+      "plans": "Compostable range by 2028.",
+      "rd_capacity": "Quality lab with three technologists.",
+      "past_collaborations": "Tested packaging with a faculty lab in 2020.",
+      "language": "en"
+    },
+    {
+      "id": "C04",
+      "name": "Zlatni Klas Mlin a.d.",
+      "sector": "Food processing (milling)",
+      "employees": 140,
+      "founded": 1974,
+      "location": "Novi Sad",
+      "about": "Flour mill near Novi Sad producing wheat flour and semolina.",
+      "products": [
+        "wheat flour",
+        "semolina",
+        "animal feed bran"
+      ],
+      "tech": [
+        "SCADA",
+        "SAP"
+      ],
+      "challenges": [
+        {
+          "id": "C04-CH1",
+          "text": "We sell 18,000 tonnes of bran a year as cheap animal feed; we'd like a higher-value use."
+        },
+        {
+          "id": "C04-CH2",
+          "text": "Electricity is our second-largest cost and peaks at bad times."
+        }
+      ],
+      "plans": "Diversify into food ingredients.",
+      "rd_capacity": "No R&D department.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C05",
+      "name": "GridSense Analytics",
+      "sector": "Energy software",
+      "employees": 31,
+      "founded": 2017,
+      "location": "NTP Novi Sad",
+      "about": "Analytics for electricity distribution operators in the Western Balkans: asset registers, outage analysis, network planning.",
+      "products": [
+        "GridSense Assets",
+        "outage dashboards"
+      ],
+      "tech": [
+        "Python",
+        "TimescaleDB",
+        "Azure"
+      ],
+      "challenges": [
+        {
+          "id": "C05-CH1",
+          "text": "Operators want to know which distribution transformers will fail next year; they have dissolved gas analysis results and load data, but no model."
+        },
+        {
+          "id": "C05-CH2",
+          "text": "Rooftop PV is changing feeder loads; operators need a day-ahead forecast per feeder."
+        }
+      ],
+      "plans": "A predictive maintenance module in 2027.",
+      "rd_capacity": "Five engineers, one with a PhD.",
+      "past_collaborations": "Two master's theses supervised jointly.",
+      "language": "en"
+    },
+    {
+      "id": "C06",
+      "name": "VoltCell Storage",
+      "sector": "Energy storage",
+      "employees": 15,
+      "founded": 2022,
+      "location": "NTP Novi Sad",
+      "about": "Builds stationary battery storage from second-life electric vehicle batteries for farms and small factories.",
+      "products": [
+        "VoltCell 50 kWh cabinet"
+      ],
+      "tech": [
+        "BMS firmware",
+        "CAN",
+        "Python"
+      ],
+      "challenges": [
+        {
+          "id": "C06-CH1",
+          "text": "We can't tell how healthy a used battery module is without a full test cycle that takes 20 hours."
+        }
+      ],
+      "plans": "Scale to 5 MWh a year.",
+      "rd_capacity": "Three engineers.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C07",
+      "name": "LinguaBot d.o.o.",
+      "sector": "Conversational AI",
+      "employees": 22,
+      "founded": 2020,
+      "location": "NTP Novi Sad",
+      "about": "Customer-support chatbots for banks and telecoms in Serbia.",
+      "products": [
+        "LinguaBot Assist",
+        "knowledge-base search"
+      ],
+      "tech": [
+        "Python",
+        "Elasticsearch",
+        "LLM APIs"
+      ],
+      "challenges": [
+        {
+          "id": "C07-CH1",
+          "text": "Our search misses answers because Serbian words change form (e.g. 'kartica', 'karticu', 'karticom') and users mix Latin and Cyrillic."
+        },
+        {
+          "id": "C07-CH2",
+          "text": "Clients want the bot on the phone too; speech recognition for Serbian is poor on call audio."
+        }
+      ],
+      "plans": "Voice channel in 2027.",
+      "rd_capacity": "Four ML engineers.",
+      "past_collaborations": "Internships for FTN students.",
+      "language": "en"
+    },
+    {
+      "id": "C08",
+      "name": "CardioTrack d.o.o.",
+      "sector": "Medical devices",
+      "employees": 12,
+      "founded": 2021,
+      "location": "NTP Novi Sad",
+      "about": "A 7-day ECG patch with an app for cardiologists.",
+      "products": [
+        "CardioTrack patch",
+        "clinician portal"
+      ],
+      "tech": [
+        "embedded C",
+        "Python",
+        "AWS"
+      ],
+      "challenges": [
+        {
+          "id": "C08-CH1",
+          "text": "Too many false atrial fibrillation alarms when patients move."
+        },
+        {
+          "id": "C08-CH2",
+          "text": "We need a clinical validation study in Serbia before CE marking."
+        }
+      ],
+      "plans": "CE mark in 2027.",
+      "rd_capacity": "Two biomedical engineers.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C09",
+      "name": "InspektAI",
+      "sector": "Industrial software",
+      "employees": 18,
+      "founded": 2020,
+      "location": "NTP Novi Sad",
+      "about": "Visual quality control for factories: cameras on the line, software that flags defects.",
+      "products": [
+        "InspektAI Line",
+        "defect dashboards"
+      ],
+      "tech": [
+        "PyTorch",
+        "NVIDIA Jetson",
+        "C++"
+      ],
+      "challenges": [
+        {
+          "id": "C09-CH1",
+          "text": "Scratches on polished metal parts: reflections fool our model, and clients only have a few dozen defect photos."
+        },
+        {
+          "id": "C09-CH2",
+          "text": "Clients want inference on cheaper edge devices than Jetson."
+        }
+      ],
+      "plans": "Enter the automotive supply chain.",
+      "rd_capacity": "Six ML engineers.",
+      "past_collaborations": "Hackathon sponsor in 2024.",
+      "language": "en"
+    },
+    {
+      "id": "C10",
+      "name": "HidroLogik d.o.o.",
+      "sector": "Water software",
+      "employees": 11,
+      "founded": 2018,
+      "location": "NTP Novi Sad",
+      "about": "Software for municipal water utilities: network maps, meter data, billing integration.",
+      "products": [
+        "HidroLogik Net"
+      ],
+      "tech": [
+        "QGIS",
+        "PostgreSQL",
+        "EPANET"
+      ],
+      "challenges": [
+        {
+          "id": "C10-CH1",
+          "text": "Utilities lose 30–40% of water; they have pressure sensors in a few zones but can't say where the leak is."
+        },
+        {
+          "id": "C10-CH2",
+          "text": "Forecasting daily water demand for pumping plans."
+        }
+      ],
+      "plans": "Leak module for 2027.",
+      "rd_capacity": "Two engineers.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C11",
+      "name": "ReVita Water",
+      "sector": "Environmental engineering",
+      "employees": 27,
+      "founded": 2014,
+      "location": "NTP Novi Sad",
+      "about": "Designs and builds wastewater treatment units for food and pharmaceutical plants.",
+      "products": [
+        "ReVita MBR units",
+        "service contracts"
+      ],
+      "tech": [
+        "membrane bioreactors",
+        "PLC"
+      ],
+      "challenges": [
+        {
+          "id": "C11-CH1",
+          "text": "A pharmaceutical client must remove drug residues (diclofenac, carbamazepine) that our biological step doesn't catch."
+        },
+        {
+          "id": "C11-CH2",
+          "text": "Membranes in dairy plants foul quickly and need cleaning every week."
+        }
+      ],
+      "plans": "Pharma-grade line by 2028.",
+      "rd_capacity": "Process engineer and a lab technician.",
+      "past_collaborations": "Sampling campaign with a faculty in 2019.",
+      "language": "en"
+    },
+    {
+      "id": "C12",
+      "name": "BuildTwin d.o.o.",
+      "sector": "Construction consulting",
+      "employees": 14,
+      "founded": 2019,
+      "location": "NTP Novi Sad",
+      "about": "BIM modelling and consulting for public building projects.",
+      "products": [
+        "BIM models",
+        "energy audits"
+      ],
+      "tech": [
+        "Revit",
+        "IFC",
+        "EnergyPlus"
+      ],
+      "challenges": [
+        {
+          "id": "C12-CH1",
+          "text": "Cities want to retrofit 40 schools but don't know which to do first for the biggest energy savings per dinar."
+        }
+      ],
+      "plans": "Digital-twin service for municipalities.",
+      "rd_capacity": "One energy engineer.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C13",
+      "name": "RouteWise",
+      "sector": "Logistics software",
+      "employees": 35,
+      "founded": 2016,
+      "location": "NTP Novi Sad",
+      "about": "Route planning and delivery tracking for couriers and retail chains.",
+      "products": [
+        "RouteWise Planner",
+        "driver app"
+      ],
+      "tech": [
+        "Java",
+        "OR-Tools",
+        "Kafka"
+      ],
+      "challenges": [
+        {
+          "id": "C13-CH1",
+          "text": "Same-day deliveries with narrow time windows: our planner takes too long when orders change during the day."
+        },
+        {
+          "id": "C13-CH2",
+          "text": "Retail clients ask us to forecast store demand so deliveries match it."
+        }
+      ],
+      "plans": "Dynamic re-planning in 2027.",
+      "rd_capacity": "Optimization team of three.",
+      "past_collaborations": "Student projects with PMF.",
+      "language": "en"
+    },
+    {
+      "id": "C14",
+      "name": "SecureEdge Labs",
+      "sector": "Cybersecurity",
+      "employees": 19,
+      "founded": 2019,
+      "location": "NTP Novi Sad",
+      "about": "Security monitoring for factories and building management systems.",
+      "products": [
+        "EdgeWatch sensor",
+        "SOC service"
+      ],
+      "tech": [
+        "Zeek",
+        "Rust",
+        "Python"
+      ],
+      "challenges": [
+        {
+          "id": "C14-CH1",
+          "text": "We need to detect unusual behaviour on Modbus and BACnet networks without labelled attack data."
+        },
+        {
+          "id": "C14-CH2",
+          "text": "Clients ask whether our firmware signing will survive quantum computers."
+        }
+      ],
+      "plans": "Certify under the EU Cyber Resilience Act.",
+      "rd_capacity": "Four security engineers.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C15",
+      "name": "Kredo Fintech",
+      "sector": "Fintech",
+      "employees": 26,
+      "founded": 2020,
+      "location": "NTP Novi Sad",
+      "about": "Online loans for micro and small businesses.",
+      "products": [
+        "Kredo SME loans"
+      ],
+      "tech": [
+        "Python",
+        "dbt",
+        "Snowflake"
+      ],
+      "challenges": [
+        {
+          "id": "C15-CH1",
+          "text": "Micro firms often have under a year of history; our scoring rejects good borrowers."
+        },
+        {
+          "id": "C15-CH2",
+          "text": "The central bank wants every automated decision explained."
+        }
+      ],
+      "plans": "Expand to North Macedonia.",
+      "rd_capacity": "Data team of five.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C16",
+      "name": "DriveCore Software",
+      "sector": "Automotive software",
+      "employees": 85,
+      "founded": 2010,
+      "location": "NTP Novi Sad",
+      "about": "Embedded software services for automotive tier-1 suppliers.",
+      "products": [
+        "body control software",
+        "testing services"
+      ],
+      "tech": [
+        "AUTOSAR",
+        "C",
+        "Simulink",
+        "dSPACE"
+      ],
+      "challenges": [
+        {
+          "id": "C16-CH1",
+          "text": "Writing ISO 26262 test cases by hand takes most of our verification budget."
+        },
+        {
+          "id": "C16-CH2",
+          "text": "We need a cheaper hardware-in-the-loop bench for smaller projects."
+        }
+      ],
+      "plans": "A test-automation product line.",
+      "rd_capacity": "Twenty engineers in verification.",
+      "past_collaborations": "Guest lectures at FTN.",
+      "language": "en"
+    },
+    {
+      "id": "C17",
+      "name": "PrintMetal 3D",
+      "sector": "Additive manufacturing",
+      "employees": 13,
+      "founded": 2018,
+      "location": "NTP Novi Sad",
+      "about": "Metal 3D printing service for tooling and spare parts.",
+      "products": [
+        "SLM printing",
+        "post-processing"
+      ],
+      "tech": [
+        "SLM machines",
+        "Materialise Magics"
+      ],
+      "challenges": [
+        {
+          "id": "C17-CH1",
+          "text": "Porosity in 316L parts fails customer pressure tests in about 1 of 12 builds."
+        },
+        {
+          "id": "C17-CH2",
+          "text": "Four printers, many small orders: we schedule builds by hand."
+        }
+      ],
+      "plans": "Aerospace certification.",
+      "rd_capacity": "Two application engineers.",
+      "past_collaborations": "Thesis on support structures (2015).",
+      "language": "en"
+    },
+    {
+      "id": "C18",
+      "name": "MlekoSmart d.o.o.",
+      "sector": "Agri-tech",
+      "employees": 8,
+      "founded": 2022,
+      "location": "NTP Novi Sad",
+      "about": "Ogrlice za krave koje mere aktivnost i preživanje i aplikacija za farmere.",
+      "products": [
+        "MlekoSmart ogrlica"
+      ],
+      "tech": [
+        "nRF52",
+        "Kotlin",
+        "Python"
+      ],
+      "challenges": [
+        {
+          "id": "C18-CH1",
+          "text": "Farmeri žele upozorenje na mastitis pre nego što se vide simptomi."
+        }
+      ],
+      "plans": "Izlazak na tržište Hrvatske.",
+      "rd_capacity": "Jedan inženjer.",
+      "past_collaborations": "Nema.",
+      "language": "sr"
+    },
+    {
+      "id": "C19",
+      "name": "NebulaQ",
+      "sector": "Quantum software",
+      "employees": 6,
+      "founded": 2023,
+      "location": "NTP Novi Sad",
+      "about": "Quantum algorithms for drug discovery clients abroad.",
+      "products": [
+        "NebulaQ SDK"
+      ],
+      "tech": [
+        "Qiskit",
+        "Python"
+      ],
+      "challenges": [
+        {
+          "id": "C19-CH1",
+          "text": "Error mitigation on today's noisy quantum hardware for molecular simulation."
+        }
+      ],
+      "plans": "Partner with a quantum hardware vendor.",
+      "rd_capacity": "Four physicists.",
+      "past_collaborations": "None.",
+      "language": "en"
+    },
+    {
+      "id": "C20",
+      "name": "HempTex Vojvodina",
+      "sector": "Textiles",
+      "employees": 40,
+      "founded": 2017,
+      "location": "Bačka Palanka",
+      "about": "Grows and processes industrial hemp into fibre for textiles.",
+      "products": [
+        "hemp yarn",
+        "non-woven mats"
+      ],
+      "tech": [
+        "decortication line"
+      ],
+      "challenges": [
+        {
+          "id": "C20-CH1",
+          "text": "Our decortication line damages long fibres, which lowers the price we get."
+        }
+      ],
+      "plans": "A spinning line in 2028.",
+      "rd_capacity": "None.",
+      "past_collaborations": "None.",
+      "language": "en"
+    }
+  ]
+}

@@ -1,0 +1,1790 @@
+{
+  "name": "EINSTEIN Matchmaker synthetic dataset",
+  "version": "1.0",
+  "note": "Synthetic. Every person, company, publication, project and patent is invented; any resemblance to real ones is a coincidence. Institutions are real faculties of the University of Novi Sad, used as a setting only.",
+  "researchers": [
+    {
+      "id": "R01",
+      "name": "Milica Stanković",
+      "title": "Research Professor",
+      "institution": "University of Novi Sad (BioSense Institute)",
+      "faculty": "BioSense Institute",
+      "department": "Remote Sensing and GIS Group",
+      "fields": [
+        "remote sensing",
+        "precision agriculture",
+        "machine learning"
+      ],
+      "keywords": [
+        "Sentinel-2",
+        "crop yield prediction",
+        "hyperspectral imaging",
+        "time series",
+        "soil moisture"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0001",
+          "title": "Early-season maize yield prediction from Sentinel-2 time series at parcel level",
+          "year": 2024,
+          "venue": "Journal of Applied Earth Observation in Agriculture",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0002",
+          "title": "Hyperspectral indices for nitrogen stress in winter wheat under variable irrigation",
+          "year": 2023,
+          "venue": "Precision Farming Letters",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0003",
+          "title": "Fusing radar and optical imagery for soil moisture mapping in the Pannonian plain",
+          "year": 2022,
+          "venue": "International Symposium on Agricultural Remote Sensing",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0004",
+          "title": "Transfer learning for crop type maps when labels are scarce",
+          "year": 2021,
+          "venue": "Remote Sensing Methods",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-001",
+          "title": "AGROSAT: satellite monitoring of field crops in Vojvodina",
+          "program": "Science Fund of the Republic of Serbia (synthetic)",
+          "role": "principal investigator",
+          "years": "2022–2025"
+        },
+        {
+          "id": "SYN-PRJ-002",
+          "title": "SOILSCAN: soil health indicators from space",
+          "program": "Horizon Europe (synthetic)",
+          "role": "work package lead",
+          "years": "2023–2026"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Advised two agri-tech startups on satellite data pipelines.",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R02",
+      "name": "Nenad Ilić",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Agriculture",
+      "department": "Department of Field and Vegetable Crops",
+      "fields": [
+        "agronomy",
+        "irrigation",
+        "decision support systems"
+      ],
+      "keywords": [
+        "drip irrigation",
+        "evapotranspiration",
+        "irrigation scheduling",
+        "soil moisture sensors",
+        "sugar beet"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0005",
+          "title": "Evapotranspiration-based irrigation scheduling for sugar beet on chernozem",
+          "year": 2023,
+          "venue": "Agricultural Water Use",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0006",
+          "title": "Low-cost capacitive soil moisture probes: calibration across soil types",
+          "year": 2021,
+          "venue": "Sensors in Agronomy",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0007",
+          "title": "Deficit irrigation of vegetables in a changing climate",
+          "year": 2020,
+          "venue": "Conference on Sustainable Field Crops",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-003",
+          "title": "WATERWISE: irrigation advice for smallholders",
+          "program": "Provincial Secretariat for Higher Education (synthetic)",
+          "role": "principal investigator",
+          "years": "2021–2023"
+        }
+      ],
+      "patents": [
+        {
+          "id": "SYN-PAT-001",
+          "title": "Capacitive soil moisture probe with a multi-depth sensing array",
+          "year": 2021,
+          "status": "granted"
+        }
+      ],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R03",
+      "name": "Ana Kovačević",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Power, Electronics and Telecommunications",
+      "fields": [
+        "wireless sensor networks",
+        "embedded systems",
+        "low-power electronics"
+      ],
+      "keywords": [
+        "LoRaWAN",
+        "energy harvesting",
+        "battery life",
+        "sensor nodes",
+        "agricultural IoT"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0008",
+          "title": "Extending LoRaWAN node lifetime in sub-zero temperatures with adaptive duty cycling",
+          "year": 2024,
+          "venue": "Journal of Low-Power Systems",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0009",
+          "title": "Solar energy harvesting for orchard sensor nodes: a two-year field study",
+          "year": 2023,
+          "venue": "International Conference on IoT in Agriculture",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0010",
+          "title": "Packet loss in dense rural LoRa deployments",
+          "year": 2022,
+          "venue": "Wireless Networks Review",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-004",
+          "title": "FIELDNET: rural sensor networks",
+          "program": "Science Fund of the Republic of Serbia (synthetic)",
+          "role": "researcher",
+          "years": "2022–2024"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Spent two years designing sensor hardware at a telecom company before the PhD.",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R04",
+      "name": "Dragan Pavlović",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Agriculture",
+      "department": "Department of Plant and Environmental Protection",
+      "fields": [
+        "entomology",
+        "integrated pest management"
+      ],
+      "keywords": [
+        "pheromone traps",
+        "codling moth",
+        "pest monitoring",
+        "orchards",
+        "image-based insect counting"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0011",
+          "title": "Codling moth flight dynamics in apple orchards of northern Serbia",
+          "year": 2022,
+          "venue": "Journal of Applied Entomology Studies",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0012",
+          "title": "Counting moths in pheromone trap photos: agreement between experts and a neural network",
+          "year": 2024,
+          "venue": "Plant Protection Science",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0013",
+          "title": "Forecasting spraying windows from trap counts and degree-days",
+          "year": 2020,
+          "venue": "Symposium on Integrated Pest Management",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-005",
+          "title": "ORCHARD-IPM: pest warning service",
+          "program": "Ministry of Agriculture (synthetic)",
+          "role": "principal investigator",
+          "years": "2019–2023"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R05",
+      "name": "Jelena Marković",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technology",
+      "department": "Department of Food Preservation Engineering",
+      "fields": [
+        "food engineering",
+        "packaging",
+        "predictive microbiology"
+      ],
+      "keywords": [
+        "shelf life",
+        "modified atmosphere packaging",
+        "berries",
+        "cold chain",
+        "predictive models"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0014",
+          "title": "Modified atmosphere packaging extends raspberry shelf life for export",
+          "year": 2023,
+          "venue": "Journal of Food Process Engineering Studies",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0015",
+          "title": "Predictive growth models for Botrytis on soft fruit in the cold chain",
+          "year": 2022,
+          "venue": "Food Microbiology Modelling",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0016",
+          "title": "Temperature abuse during transport: a sensor study of fruit exports",
+          "year": 2021,
+          "venue": "International Food Congress",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-006",
+          "title": "FRESHROUTE: cold chain for Serbian berries",
+          "program": "Innovation Fund (synthetic)",
+          "role": "academic partner",
+          "years": "2022–2024"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Worked with three fruit exporters on packaging trials.",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R06",
+      "name": "Stefan Đorđević",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technology",
+      "department": "Department of Materials Engineering",
+      "fields": [
+        "polymer science",
+        "biodegradable materials"
+      ],
+      "keywords": [
+        "PLA",
+        "starch films",
+        "compostable packaging",
+        "edible coatings",
+        "barrier properties"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0017",
+          "title": "Starch–PLA blends with improved water vapour barrier",
+          "year": 2024,
+          "venue": "Biopolymer Materials",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0018",
+          "title": "Antimicrobial edible coatings from plant extracts for fresh-cut fruit",
+          "year": 2022,
+          "venue": "Food Packaging and Shelf Life Research",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0019",
+          "title": "Home compostability of bio-based films under Serbian conditions",
+          "year": 2021,
+          "venue": "Conference on Green Materials",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [
+        {
+          "id": "SYN-PAT-002",
+          "title": "Starch-based compostable film with an antimicrobial plant extract",
+          "year": 2023,
+          "status": "pending"
+        }
+      ],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R07",
+      "name": "Ivana Lukić",
+      "title": "Research Associate",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technology",
+      "department": "Department of Biotechnology",
+      "fields": [
+        "food waste valorization",
+        "bioprocess engineering"
+      ],
+      "keywords": [
+        "wheat bran",
+        "fermentation",
+        "dietary fibre",
+        "bioactive compounds",
+        "by-products"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0020",
+          "title": "Solid-state fermentation of wheat bran into a protein-rich ingredient",
+          "year": 2023,
+          "venue": "Bioresource Valorization",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0021",
+          "title": "Extracting ferulic acid from milling by-products",
+          "year": 2021,
+          "venue": "Journal of Cereal By-products",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-007",
+          "title": "BRANVALUE: from milling waste to food ingredients",
+          "program": "Science Fund of the Republic of Serbia (synthetic)",
+          "role": "principal investigator",
+          "years": "2023–2025"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R08",
+      "name": "Marko Petrović",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Power, Electronics and Telecommunications",
+      "fields": [
+        "power systems",
+        "asset management",
+        "high-voltage equipment"
+      ],
+      "keywords": [
+        "power transformers",
+        "dissolved gas analysis",
+        "condition monitoring",
+        "failure prediction",
+        "distribution grid"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0022",
+          "title": "Predicting distribution transformer failures from dissolved gas analysis and load history",
+          "year": 2024,
+          "venue": "Journal of Power Equipment Diagnostics",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0023",
+          "title": "Health indices for ageing transformer fleets",
+          "year": 2022,
+          "venue": "International Conference on Grid Assets",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0024",
+          "title": "Thermal models of oil-immersed transformers under PV-driven reverse flow",
+          "year": 2021,
+          "venue": "Power Delivery Research",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-008",
+          "title": "GRIDHEALTH: condition-based maintenance for the distribution grid",
+          "program": "Horizon Europe (synthetic)",
+          "role": "principal investigator",
+          "years": "2022–2025"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Twelve years of joint work with distribution system operators.",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R09",
+      "name": "Milan Petrović",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [
+        "natural language processing",
+        "machine learning"
+      ],
+      "keywords": [
+        "transformer models",
+        "Serbian language",
+        "retrieval",
+        "embeddings",
+        "question answering"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0025",
+          "title": "A transformer model pre-trained on Serbian web text",
+          "year": 2024,
+          "venue": "Workshop on Slavic Language Technology",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0026",
+          "title": "Dense retrieval for Serbian customer-support questions",
+          "year": 2023,
+          "venue": "Journal of Language Engineering",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0027",
+          "title": "Handling Latin and Cyrillic script in one embedding space",
+          "year": 2022,
+          "venue": "Conference on Computational Linguistics in the Balkans",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-009",
+          "title": "SRB-NLP: open language resources for Serbian",
+          "program": "Science Fund of the Republic of Serbia (synthetic)",
+          "role": "researcher",
+          "years": "2023–2026"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R10",
+      "name": "Tamara Simić",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Power, Electronics and Telecommunications",
+      "fields": [
+        "smart grids",
+        "renewable integration",
+        "forecasting"
+      ],
+      "keywords": [
+        "PV forecasting",
+        "demand response",
+        "distribution system operators",
+        "short-term load forecasting",
+        "flexibility"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0028",
+          "title": "Day-ahead PV forecasting for distribution feeders with satellite cloud data",
+          "year": 2024,
+          "venue": "Renewable Grid Integration",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0029",
+          "title": "Demand response potential of industrial consumers in Vojvodina",
+          "year": 2022,
+          "venue": "European Energy Markets Conference",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0030",
+          "title": "Probabilistic short-term load forecasting with gradient boosting",
+          "year": 2021,
+          "venue": "Journal of Energy Forecasting",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-010",
+          "title": "FLEXGRID-RS: flexibility markets for Serbia",
+          "program": "Horizon Europe (synthetic)",
+          "role": "researcher",
+          "years": "2023–2026"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R11",
+      "name": "Bojan Radić",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Power, Electronics and Telecommunications",
+      "fields": [
+        "energy storage",
+        "power electronics"
+      ],
+      "keywords": [
+        "lithium-ion batteries",
+        "state of health",
+        "battery management systems",
+        "second-life batteries",
+        "Kalman filter"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0031",
+          "title": "State-of-health estimation of second-life EV batteries from partial charging curves",
+          "year": 2024,
+          "venue": "Journal of Energy Storage Systems",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0032",
+          "title": "Cell balancing for repurposed battery packs",
+          "year": 2023,
+          "venue": "Power Electronics Conference",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R12",
+      "name": "Nikola Stojanović",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [
+        "computer vision",
+        "machine learning",
+        "edge computing"
+      ],
+      "keywords": [
+        "defect detection",
+        "industrial inspection",
+        "few-shot learning",
+        "edge inference",
+        "anomaly detection"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0033",
+          "title": "Few-shot surface defect detection on reflective metal parts",
+          "year": 2024,
+          "venue": "Journal of Industrial Vision",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0034",
+          "title": "Quantized detectors for real-time inspection on edge devices",
+          "year": 2023,
+          "venue": "Embedded AI Conference",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0035",
+          "title": "Synthetic defect generation for visual quality control",
+          "year": 2022,
+          "venue": "Machine Vision Applications Review",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-011",
+          "title": "VISIONQC: AI quality control for SMEs",
+          "program": "Innovation Fund (synthetic)",
+          "role": "academic partner",
+          "years": "2023–2025"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Co-founded a computer vision consultancy (2016–2019).",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R13",
+      "name": "Sara Babić",
+      "title": "Teaching Assistant",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [
+        "medical imaging"
+      ],
+      "keywords": [
+        "image segmentation",
+        "MRI",
+        "U-Net"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0036",
+          "title": "Brain tumour segmentation with limited annotations",
+          "year": 2024,
+          "venue": "Student Conference on Biomedical Computing",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "PhD candidate, expected to defend in 2026.",
+      "language": "en"
+    },
+    {
+      "id": "R14",
+      "name": "Luka Vuković",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Sciences",
+      "department": "Department of Mathematics and Informatics",
+      "fields": [
+        "operations research",
+        "combinatorial optimization"
+      ],
+      "keywords": [
+        "vehicle routing",
+        "time windows",
+        "metaheuristics",
+        "last-mile delivery",
+        "scheduling"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0037",
+          "title": "An adaptive large neighbourhood search for routing with time windows and split deliveries",
+          "year": 2023,
+          "venue": "Journal of Optimization in Logistics",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0038",
+          "title": "Same-day delivery with dynamic orders: a rolling-horizon approach",
+          "year": 2022,
+          "venue": "Transportation Science Letters",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0039",
+          "title": "Scheduling with machine availability constraints",
+          "year": 2020,
+          "venue": "Conference on Combinatorial Optimization",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-012",
+          "title": "LASTMILE-NS: city logistics for Novi Sad",
+          "program": "Provincial Secretariat for Higher Education (synthetic)",
+          "role": "principal investigator",
+          "years": "2021–2023"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R15",
+      "name": "Katarina Nikolić",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Philosophy",
+      "department": "Department of Serbian Language and Linguistics",
+      "fields": [
+        "corpus linguistics",
+        "morphology"
+      ],
+      "keywords": [
+        "Serbian morphology",
+        "lemmatization",
+        "corpora",
+        "inflection",
+        "spelling variants"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0040",
+          "title": "A lemmatizer for Serbian that handles both scripts",
+          "year": 2023,
+          "venue": "Journal of Slavic Linguistics Tools",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0041",
+          "title": "Inflection and search: why Serbian queries miss relevant documents",
+          "year": 2022,
+          "venue": "Conference on South Slavic Languages",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-013",
+          "title": "KORPUS-NS: a reference corpus of contemporary Serbian",
+          "program": "Ministry of Science (synthetic)",
+          "role": "principal investigator",
+          "years": "2020–2024"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R16",
+      "name": "Dušan Milošević",
+      "title": "Research Associate",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [
+        "speech technology"
+      ],
+      "keywords": [
+        "automatic speech recognition",
+        "speech synthesis",
+        "Serbian",
+        "call centres",
+        "noise robustness"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0042",
+          "title": "Noise-robust Serbian speech recognition for telephone audio",
+          "year": 2024,
+          "venue": "Speech Technology Journal",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0043",
+          "title": "A Serbian text-to-speech voice built from 20 hours of audio",
+          "year": 2022,
+          "venue": "Interspeech-style Workshop on Low-Resource Speech",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Built the speech pipeline of a call-centre product (2018–2021).",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R17",
+      "name": "Maja Popović",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Biomedical Engineering",
+      "fields": [
+        "biomedical signal processing",
+        "wearables"
+      ],
+      "keywords": [
+        "ECG",
+        "atrial fibrillation",
+        "arrhythmia detection",
+        "false alarms",
+        "accelerometer"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0044",
+          "title": "Cutting false atrial fibrillation alarms in patch ECG with motion-aware filtering",
+          "year": 2024,
+          "venue": "Journal of Biomedical Signal Analysis",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0045",
+          "title": "Single-lead ECG arrhythmia classification on a microcontroller",
+          "year": 2022,
+          "venue": "Conference on Medical Devices Engineering",
+          "type": "conference"
+        },
+        {
+          "id": "SYN-PUB-0046",
+          "title": "Activity recognition from chest-worn accelerometers",
+          "year": 2021,
+          "venue": "Wearable Sensing Review",
+          "type": "journal"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-014",
+          "title": "HEARTWATCH: remote cardiac monitoring",
+          "program": "Science Fund of the Republic of Serbia (synthetic)",
+          "role": "principal investigator",
+          "years": "2022–2025"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R18",
+      "name": "Goran Tomić",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Medicine",
+      "department": "Department of Internal Medicine (Cardiology)",
+      "fields": [
+        "cardiology",
+        "clinical research"
+      ],
+      "keywords": [
+        "heart failure",
+        "telemonitoring",
+        "clinical trials",
+        "atrial fibrillation",
+        "ethics approval"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0047",
+          "title": "Telemonitoring after heart failure hospitalisation: a randomised study",
+          "year": 2023,
+          "venue": "Cardiology Practice Journal",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0048",
+          "title": "Screening for silent atrial fibrillation in older adults",
+          "year": 2021,
+          "venue": "Congress of Cardiology",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-015",
+          "title": "TELECARE-HF",
+          "program": "Ministry of Health (synthetic)",
+          "role": "principal investigator",
+          "years": "2021–2024"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "Leads clinical validation studies; needs device makers to cover study costs.",
+      "language": "en"
+    },
+    {
+      "id": "R19",
+      "name": "Jovana Ristić",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad (BioSense Institute)",
+      "faculty": "BioSense Institute",
+      "department": "Sensors and Microsystems Group",
+      "fields": [
+        "biosensors",
+        "printed electronics"
+      ],
+      "keywords": [
+        "electrochemical sensors",
+        "screen printing",
+        "nitrate",
+        "milk quality",
+        "point-of-care"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0049",
+          "title": "Screen-printed electrodes for on-farm nitrate measurement",
+          "year": 2023,
+          "venue": "Sensors and Microsystems",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0050",
+          "title": "Detecting somatic cells in milk with an impedance sensor",
+          "year": 2022,
+          "venue": "Conference on Agri-Food Sensors",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [
+        {
+          "id": "SYN-PAT-003",
+          "title": "Screen-printed electrode for nitrate detection in water",
+          "year": 2022,
+          "status": "granted"
+        }
+      ],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R20",
+      "name": "Aleksandar Marić",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technology",
+      "department": "Department of Chemical Engineering",
+      "fields": [
+        "chemical engineering",
+        "separation processes"
+      ],
+      "keywords": [
+        "membrane filtration",
+        "fouling",
+        "wastewater treatment",
+        "process intensification"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0051",
+          "title": "Ultrasound-assisted cleaning cuts membrane fouling in dairy wastewater",
+          "year": 2023,
+          "venue": "Journal of Membrane Processes",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0052",
+          "title": "Modelling fouling in ceramic membranes",
+          "year": 2021,
+          "venue": "Chemical Process Engineering",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Consultant to food factories on wastewater lines.",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R21",
+      "name": "Teodora Filipović",
+      "title": "Research Associate",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Sciences",
+      "department": "Department of Chemistry, Biochemistry and Environmental Protection",
+      "fields": [
+        "environmental chemistry",
+        "water treatment"
+      ],
+      "keywords": [
+        "photocatalysis",
+        "micropollutants",
+        "pharmaceuticals",
+        "advanced oxidation",
+        "TiO2"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0053",
+          "title": "Photocatalytic removal of diclofenac and carbamazepine from hospital wastewater",
+          "year": 2024,
+          "venue": "Water Chemistry Research",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0054",
+          "title": "Pharmaceutical residues in the Danube near Novi Sad: a sampling campaign",
+          "year": 2022,
+          "venue": "Environmental Monitoring Letters",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R22",
+      "name": "Zoran Kostić",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Civil Engineering Subotica",
+      "department": "Department of Hydraulic Engineering",
+      "fields": [
+        "hydraulics",
+        "water distribution networks"
+      ],
+      "keywords": [
+        "leak detection",
+        "leak localization",
+        "pressure management",
+        "hydraulic models",
+        "district metered areas"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0055",
+          "title": "Locating leaks from pressure sensors and a calibrated hydraulic model",
+          "year": 2023,
+          "venue": "Journal of Water Network Engineering",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0056",
+          "title": "Pressure management cuts losses in a mid-size town",
+          "year": 2021,
+          "venue": "Conference on Urban Water",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-016",
+          "title": "AQUALOSS: reducing water losses in Vojvodina towns",
+          "program": "Provincial Secretariat (synthetic)",
+          "role": "principal investigator",
+          "years": "2022–2024"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R23",
+      "name": "Danica Savić",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Civil Engineering and Geodesy",
+      "fields": [
+        "building information modelling",
+        "energy efficiency"
+      ],
+      "keywords": [
+        "BIM",
+        "digital twins",
+        "energy retrofit",
+        "public buildings",
+        "thermal simulation"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0057",
+          "title": "Digital twins for planning the energy retrofit of school buildings",
+          "year": 2024,
+          "venue": "Building Performance Journal",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0058",
+          "title": "From BIM to energy simulation without manual remodelling",
+          "year": 2022,
+          "venue": "Conference on Digital Construction",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R24",
+      "name": "Ognjen Lazić",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Economics in Subotica",
+      "department": "Department of Business Informatics",
+      "fields": [
+        "supply chain analytics",
+        "forecasting"
+      ],
+      "keywords": [
+        "demand forecasting",
+        "retail",
+        "promotions",
+        "inventory",
+        "intermittent demand"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0059",
+          "title": "Forecasting intermittent demand in regional retail chains",
+          "year": 2023,
+          "venue": "Journal of Retail Analytics",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0060",
+          "title": "Promotion effects on store-level demand",
+          "year": 2022,
+          "venue": "Balkan Conference on Operations",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R25",
+      "name": "Vuk Đukić",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [
+        "cybersecurity",
+        "network security"
+      ],
+      "keywords": [
+        "intrusion detection",
+        "industrial control systems",
+        "anomaly detection",
+        "IoT security",
+        "threat modelling"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0064",
+          "title": "Unsupervised anomaly detection on Modbus traffic",
+          "year": 2024,
+          "venue": "Journal of Industrial Security",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0065",
+          "title": "Threat modelling for smart building controllers",
+          "year": 2022,
+          "venue": "Conference on Applied Cybersecurity",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-017",
+          "title": "SECURE-ICS: security monitoring for factories",
+          "program": "Innovation Fund (synthetic)",
+          "role": "academic partner",
+          "years": "2023–2025"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R26",
+      "name": "Mina Jakovljević",
+      "title": "Teaching Assistant",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Sciences",
+      "department": "Department of Mathematics and Informatics",
+      "fields": [
+        "cryptography"
+      ],
+      "keywords": [
+        "post-quantum cryptography",
+        "digital signatures"
+      ],
+      "publications": [],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "Profile incomplete: no publications listed yet.",
+      "language": "en"
+    },
+    {
+      "id": "R27",
+      "name": "Branislav Žarković",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Economics in Subotica",
+      "department": "Department of Finance and Banking",
+      "fields": [
+        "credit risk",
+        "SME finance"
+      ],
+      "keywords": [
+        "credit scoring",
+        "thin-file borrowers",
+        "explainable models",
+        "alternative data",
+        "regulation"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0061",
+          "title": "Scoring micro-enterprises with little credit history",
+          "year": 2023,
+          "venue": "Journal of Banking and Finance Studies",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0062",
+          "title": "Explaining credit decisions to supervisors: a case study",
+          "year": 2022,
+          "venue": "Conference on Financial Regulation",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Former head of risk at a regional bank (2005–2012).",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R28",
+      "name": "Anja Todić",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Economics in Subotica",
+      "department": "Department of Marketing",
+      "fields": [
+        "behavioural economics",
+        "consumer research"
+      ],
+      "keywords": [
+        "pricing",
+        "surveys",
+        "willingness to pay",
+        "experiments"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0063",
+          "title": "Willingness to pay for locally produced food in Vojvodina",
+          "year": 2023,
+          "venue": "Journal of Consumer Studies",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R29",
+      "name": "Igor Matić",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [
+        "embedded software",
+        "automotive systems"
+      ],
+      "keywords": [
+        "AUTOSAR",
+        "ISO 26262",
+        "functional safety",
+        "hardware-in-the-loop",
+        "model-based testing"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0066",
+          "title": "Generating ISO 26262 test cases from Simulink models",
+          "year": 2023,
+          "venue": "Journal of Automotive Software",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0067",
+          "title": "A low-cost hardware-in-the-loop bench for body control modules",
+          "year": 2022,
+          "venue": "Embedded Systems Conference",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "Eight years with an automotive software supplier in Novi Sad.",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R30",
+      "name": "Sofija Janković",
+      "title": "Assistant Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Mechatronics, Robotics and Automation",
+      "fields": [
+        "robotics"
+      ],
+      "keywords": [
+        "collaborative robots",
+        "motion planning",
+        "ROS 2",
+        "bin picking"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0068",
+          "title": "Bin picking with a collaborative robot and a depth camera",
+          "year": 2024,
+          "venue": "Robotics Applications Journal",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R31",
+      "name": "Dejan Bogdanović",
+      "title": "Full Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Production Engineering",
+      "fields": [
+        "additive manufacturing",
+        "design optimization"
+      ],
+      "keywords": [
+        "metal 3D printing",
+        "selective laser melting",
+        "porosity",
+        "topology optimization",
+        "support structures"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0069",
+          "title": "Process windows that reduce porosity in SLM-printed 316L steel",
+          "year": 2023,
+          "venue": "Journal of Additive Manufacturing Processes",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0070",
+          "title": "Topology optimization with self-supporting constraints",
+          "year": 2022,
+          "venue": "Conference on Advanced Manufacturing",
+          "type": "conference"
+        }
+      ],
+      "projects": [],
+      "patents": [
+        {
+          "id": "SYN-PAT-004",
+          "title": "Lattice support structure that breaks away cleanly after printing",
+          "year": 2016,
+          "status": "expired"
+        }
+      ],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R32",
+      "name": "Marija Cvetković",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Industrial Engineering and Management",
+      "fields": [
+        "industrial engineering",
+        "production planning"
+      ],
+      "keywords": [
+        "production scheduling",
+        "OEE",
+        "lean manufacturing",
+        "job shop"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0071",
+          "title": "Scheduling a job shop of 3D printers with build-plate nesting",
+          "year": 2024,
+          "venue": "Journal of Production Planning",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R33",
+      "name": "Uroš Kecman",
+      "title": "Research Associate",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Sciences",
+      "department": "Department of Geography, Tourism and Hotel Management",
+      "fields": [
+        "climatology",
+        "GIS"
+      ],
+      "keywords": [
+        "drought indices",
+        "climate data",
+        "spatial analysis"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0072",
+          "title": "Drought trends in Vojvodina, 1961–2023",
+          "year": 2024,
+          "venue": "Climate Research Letters",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R34",
+      "name": "Nevena Bošković",
+      "title": "Associate Professor",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Agriculture",
+      "department": "Department of Animal Science",
+      "fields": [
+        "animal science",
+        "precision livestock farming"
+      ],
+      "keywords": [
+        "dairy cattle",
+        "mastitis",
+        "activity collars",
+        "rumination",
+        "early disease detection"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0073",
+          "title": "Rumination drops from collar sensors predict clinical mastitis two days early",
+          "year": 2024,
+          "venue": "Journal of Dairy Precision Farming",
+          "type": "journal"
+        },
+        {
+          "id": "SYN-PUB-0074",
+          "title": "Heat stress and milk yield on Vojvodina dairy farms",
+          "year": 2022,
+          "venue": "Livestock Science Conference",
+          "type": "conference"
+        }
+      ],
+      "projects": [
+        {
+          "id": "SYN-PRJ-018",
+          "title": "SMARTHERD: sensor-based herd health",
+          "program": "Science Fund of the Republic of Serbia (synthetic)",
+          "role": "principal investigator",
+          "years": "2023–2026"
+        }
+      ],
+      "patents": [],
+      "open_to": [
+        "industrial PhD supervision",
+        "joint projects"
+      ],
+      "industry_experience": "",
+      "notes": "",
+      "language": "en"
+    },
+    {
+      "id": "R35",
+      "name": "Filip Mitrović",
+      "title": "PhD student",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Computing and Control Engineering",
+      "fields": [],
+      "keywords": [
+        "blockchain",
+        "smart contracts"
+      ],
+      "publications": [],
+      "projects": [],
+      "patents": [],
+      "open_to": [],
+      "industry_experience": "",
+      "notes": "Only keywords are known.",
+      "language": "en"
+    },
+    {
+      "id": "R36",
+      "name": "Јелена Марковић",
+      "title": "редовни професор",
+      "institution": "University of Novi Sad",
+      "faculty": "Технолошки факултет",
+      "department": "Катедра за инжењерство конзервисане хране",
+      "fields": [
+        "прехрамбено инжењерство",
+        "амбалажа"
+      ],
+      "keywords": [
+        "рок трајања",
+        "паковање у модификованој атмосфери",
+        "малине"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0014",
+          "title": "Modified atmosphere packaging extends raspberry shelf life for export",
+          "year": 2023,
+          "venue": "Journal of Food Process Engineering Studies",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [],
+      "industry_experience": "",
+      "notes": "Imported from a second source (Cyrillic).",
+      "language": "sr-Cyrl"
+    },
+    {
+      "id": "R37",
+      "name": "Radomir Ćosić",
+      "title": "Professor Emeritus",
+      "institution": "University of Novi Sad",
+      "faculty": "Faculty of Technical Sciences",
+      "department": "Department of Power, Electronics and Telecommunications",
+      "fields": [
+        "power systems"
+      ],
+      "keywords": [
+        "power transformers",
+        "insulation",
+        "high voltage"
+      ],
+      "publications": [
+        {
+          "id": "SYN-PUB-0075",
+          "title": "Insulation ageing in power transformers: forty years of field data",
+          "year": 2019,
+          "venue": "Journal of High Voltage Practice",
+          "type": "journal"
+        }
+      ],
+      "projects": [],
+      "patents": [],
+      "open_to": [
+        "consulting"
+      ],
+      "industry_experience": "",
+      "notes": "Retired; no longer supervises PhD students.",
+      "language": "en"
+    }
+  ]
+}
