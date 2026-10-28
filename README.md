@@ -11,6 +11,8 @@ Data for the EINSTEIN track of the NTP Novi Sad Hackathon (30–31 October 2026)
 | `data/researchers.json` | 37 researchers: title, faculty, department, fields, keywords, publications, projects, patents, what they're open to (`open_to`), industry experience, notes |
 | `data/companies.json` | 20 companies: sector, size, what they do, products, tech, **challenges** (each with an id), plans, R&D capacity, past collaborations |
 | `data/*.csv` | The same, flattened for a spreadsheet (UTF-8) |
+| `docs/apis.md` | Open APIs for real data (OpenAlex, ORCID, CORDIS, EU calls, patents), with examples |
+| `docs/example-industrial-phd-topic.md` | What a good industrial PhD proposal looks like |
 
 Every publication, project and patent has an id (`SYN-PUB-0001`, `SYN-PRJ-001`, `SYN-PAT-001`), and every challenge too (`C05-CH1`). Cite them in your proposals and traces, so a reviewer can check each claim.
 
