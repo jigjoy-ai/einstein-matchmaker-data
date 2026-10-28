@@ -18,8 +18,10 @@ All of these are public. Checked on 28 October 2026. Request a key or access tod
 ```sh
 # The institution
 curl "https://api.openalex.org/institutions/I170726198?api_key=$OPENALEX_KEY"
-# Its authors, by topic
-curl "https://api.openalex.org/authors?filter=last_known_institutions.id:I170726198&search=remote%20sensing&api_key=$OPENALEX_KEY"
+# Its works on a topic (each work lists its authors). Author search matches names, not topics.
+curl "https://api.openalex.org/works?filter=institutions.id:I170726198&search=remote%20sensing&api_key=$OPENALEX_KEY"
+# Its authors
+curl "https://api.openalex.org/authors?filter=last_known_institutions.id:I170726198&api_key=$OPENALEX_KEY"
 # An author's recent works
 curl "https://api.openalex.org/works?filter=author.id:A123456789,from_publication_date:2021-01-01&sort=publication_date:desc&api_key=$OPENALEX_KEY"
 ```
